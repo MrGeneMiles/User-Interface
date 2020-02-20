@@ -72,8 +72,6 @@ h1, h2, h3, h4, h5 {
 .header_nav {
 	height: 60px;
 	width: 886px;
-	background-color: #257086;
-	border-radius: 15px;
 	position: fixed;
 	top: 5px;
 }
@@ -101,35 +99,41 @@ h1, h2, h3, h4, h5 {
 }
 
 .container_sbs_div {
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 30px;
-	border-bottom: solid 2px black;
-	padding-bottom: 50px;
-}
-
-.top-div {
-	display: inline-block;
-	width: 49%;
-	height: auto;
+    width:100%;
+	padding: 10px 0px;
 	text-align: center;
-	vertical-align: middle;
-	margin-top: 50px;
+	margin: 0px 0px 100px 0px;
 }
-
-.top_pic {
+ #top_div #pic {
 	display: inline-block;
+	vertical-align: middle;
+	margin-top: 100px;
+ }
+#top-div {
+    font-size: 75px;
+	margin:0px;
+	padding: 0px;
+	text-align: center;
 }
 
+ 
+#pic {
+    padding: 10px 40px;
+	margin: 0px;
+	
+}
+ 
 h1 {
-	font-size: 60px;
+    font-size: 60px;
+}
+ 
+.button_get_started {
+    margin-top: 15px;
+    width: 200px;
+    height: 45px;
 }
 
-.button_get_started {
-	margin-top: 15px;
-	width: 200px;
-	height: 45px;
-}
+
 
 h2 {
 	font-size: 22px;
