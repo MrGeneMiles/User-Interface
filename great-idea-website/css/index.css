@@ -99,17 +99,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .container_sbs_div {
+	/*display: inline-block;*/
     width:100%;
 	padding: 10px 0px;
 	text-align: center;
 	margin: 0px 0px 100px 0px;
 }
- #top_div #pic {
+ #top_div .image1 {
+	max-width: 40%;
 	display: inline-block;
 	vertical-align: middle;
 	margin-top: 100px;
  }
 #top-div {
+	width: 40%;
     font-size: 75px;
 	margin:0px;
 	padding: 0px;
@@ -117,7 +120,7 @@ h1, h2, h3, h4, h5 {
 }
 
  
-#pic {
+.image1 {
     padding: 10px 40px;
 	margin: 0px;
 	
